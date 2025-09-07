@@ -1,5 +1,5 @@
 <script>
-    import Videocard from '../components/videocard.svelte'
+    import Videocard from '$lib/components/videocard.svelte'
     import { onMount } from "svelte";
 
     let posts = [];
@@ -15,12 +15,6 @@
         }
     });
 </script>
-
-
-
-
-
-
 
 <div class="d-flex justify-content-between align-items-center mb-3">
     <h2 class="h5">Recomendados</h2>
