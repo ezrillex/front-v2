@@ -10,7 +10,7 @@
     let error_msg = ''
 
     onMount(()=>{
-        id = page.params.id ?? "";
+        id = page.params.id ?? ""; // todo change to query params for ssr to work
         if(!id){
             goto('/')
         }
@@ -89,10 +89,19 @@
     {:else}
         <!-- Video centrado -->
         <div class="ratio ratio-16x9 mb-3">
-            <video controls class="w-100" autoplay loop poster="{video.thumbnail}"  on:play={onPlay}>
-                <source src="https://REDACTED.invalid/testvideo.mp4" type="video/mp4" />
-                Tu navegador no soporta video HTML5.
-            </video>
+            <media-theme-yt>
+<!--                <video controls class="w-100" autoplay loop poster="{video.thumbnail}"  on:play={onPlay}>-->
+<!--                    <source src="https://REDACTED.invalid/testvideo.mp4" type="video/mp4" />-->
+<!--                    Tu navegador no soporta video HTML5.-->
+<!--                </video>-->
+
+                <video  class="w-100" autoplay loop poster="{video.thumbnail}"  on:play={onPlay}
+                        slot="media"
+                        src="https://REDACTED.invalid/testvideo.mp4"
+                        playsinline
+                ></video>
+            </media-theme-yt>
+
         </div>
 
         <!-- Título -->
