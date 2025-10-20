@@ -35,6 +35,7 @@
 	"dependencies": {
 		"@clerk/localizations": "^3.24.2",
 		"@types/webtorrent": "^0.110.1",
+		"better-auth": "^1.3.27",
 		"svelte-clerk": "^0.17.0"
 	}
 }
