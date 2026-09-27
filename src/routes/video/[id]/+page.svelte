@@ -38,21 +38,6 @@
             return;
         }
         const data = await response.json()
-//         const video = {
-//             id: "abc123",
-//             title: "Video de ejemplo",
-//             channel: {
-//                 name: "Canal Cristianos",
-//                 logo: "https://REDACTED.invalid/logodevchannel.png",
-//             },
-//             thumbnail: "https://REDACTED.invalid/testthumb.png",
-//             views: "12,345",
-//             likes: "1,234",
-//             subscribers: "20k",
-//             publishedAt: "5 de septiembre de 2025",
-//             description: `Este es un texto de descripción del video.
-// Puedes poner aquí detalles, links y todo lo necesario.`,
-//         };
         console.log(data)
         video = data;
 
@@ -90,14 +75,8 @@
         <!-- Video centrado -->
         <div class="ratio ratio-16x9 mb-3">
             <media-theme-yt>
-<!--                <video controls class="w-100" autoplay loop poster="{video.thumbnail}"  on:play={onPlay}>-->
-<!--                    <source src="https://REDACTED.invalid/testvideo.mp4" type="video/mp4" />-->
-<!--                    Tu navegador no soporta video HTML5.-->
-<!--                </video>-->
-
                 <video  class="w-100" autoplay loop poster="{video.thumbnail}"  on:play={onPlay}
                         slot="media"
-                        src="https://REDACTED.invalid/testvideo.mp4"
                         playsinline
                 ></video>
             </media-theme-yt>

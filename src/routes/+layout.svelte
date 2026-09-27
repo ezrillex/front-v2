@@ -18,9 +18,7 @@
     <header class="sticky-top bg-white border-bottom">
         <div class="container-fluid py-2 d-flex align-items-center gap-3">
             <a href="/" class="text-decoration-none text-reset d-block">
-                <img src="https://REDACTED.invalid/logo.png"
-                     alt="Videos Cristianos"
-                     style="height: 40px; width: auto;">
+                <span class="fw-bold">Videos Cristianos</span>
             </a>
             <form class="flex-grow-1 d-flex" role="search">
                 <input class="form-control" type="search" placeholder="Buscar" aria-label="Buscar">

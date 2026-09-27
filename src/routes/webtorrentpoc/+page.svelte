@@ -96,7 +96,6 @@ console.log('controller')
     <media-theme-yt>
         <video
                 slot="media"
-poster="https://REDACTED.invalid/testthumb.png"
                 playsinline
 
         ></video>

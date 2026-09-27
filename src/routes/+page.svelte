@@ -41,7 +41,6 @@
 
                 <!-- Thumbnail placeholder -->
                 <div class="ratio ratio-16x9 bg-light d-flex justify-content-center align-items-center">
-                    <img src="https://REDACTED.invalid/morethumb.jpg" alt="Explorar" class="img-fluid" />
                 </div>
 
                 <!-- Card body con botón -->
@@ -86,7 +85,6 @@
 
                 <!-- Thumbnail placeholder -->
                 <div class="ratio ratio-16x9 bg-light d-flex justify-content-center align-items-center">
-                    <img src="https://REDACTED.invalid/morethumb.jpg" alt="Explorar" class="img-fluid" />
                 </div>
 
                 <!-- Card body con botón -->
